@@ -37,6 +37,13 @@
     border-radius: 5px;
     position: absolute;
     bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+   .btn-cart .btn-text{
+        margin-right: 7px;
     }
 .btn-cart:hover{
     background-color: olive;

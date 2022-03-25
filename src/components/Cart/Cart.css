@@ -1,0 +1,17 @@
+.cart{
+    position: sticky;
+    top: 0;
+    padding: 30px 20px;
+}
+
+@media only screen and (max-width: 600px) {
+.cart{
+    border: 1px solid gray;
+  
+    position: sticky;
+    padding: 50px;
+    
+}
+    
+
+}
