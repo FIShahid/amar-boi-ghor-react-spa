@@ -1,15 +1,44 @@
 .books-container{
+   
     width: 300px;
-    height: 510px;
+    height: 520px;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    
+    position: relative;
+
 }
 
 .books-container img{
+    width: 280px;
+    height: 350px;
+    border-radius: 10px;
+    padding: 10px;
+   
     
-    height: 250px;
+}
+.book-info{
+    margin: 0px 14px;
+}
+.book-info p{
+    margin: 5px;
 }
 .book-title{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: oblique;
     font-weight: 400;
     font-size: 20px;
+    margin-top: 7px;
 }
+.btn-cart{
+    width: 100%;
+    border: 0;
+    background-color: darkkhaki;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    }
+.btn-cart:hover{
+    background-color: olive;
+}
+

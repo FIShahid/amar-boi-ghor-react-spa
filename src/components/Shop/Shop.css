@@ -7,4 +7,22 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 15px;
+    margin: 100px 50px;
 }
+
+@media only screen and (max-width: 600px) {
+    .shop-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .shop-container .cart-container{
+        order: 1;
+    }
+    .cart-container{
+        text-align: center;
+    }
+    .product-container {
+      grid-template-columns: 1fr;
+      order: 2;
+    }
+  }

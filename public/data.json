@@ -2,99 +2,77 @@
     {
       "id": 1,
       "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/50-anniversary-cover1.jpg",
-      "title": "To Kill a Mockingbird, by Harper Lee" ,
+      "title": "To Kill a Mockingbird" ,
       "author": "Harper Lee",
-        "price": 200
+        "price": 300
     },
     {
       "id": 2,
-      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/50-anniversary-cover1.jpg",
-      "title": "To Kill a Mockingbird, by Harper Lee" ,
-      "author": "Harper Lee",
-        "price": 200
+      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/1984.jpg",
+      "title": "1984" ,
+      "author": "George Orwell",
+        "price": 220
     },
     {
       "id": 3,
-      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/50-anniversary-cover1.jpg",
-      "title": "To Kill a Mockingbird, by Harper Lee" ,
-      "author": "Harper Lee",
-        "price": 200
+      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/harry_potter_and_the_Sorcerers_stone_adult_usa.jpg",
+      "title": "Harry Potter and the Philosopher’s Stone" ,
+      "author": " J.K. Rowling",
+        "price": 400
     }, {
       "id": 4,
-      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/50-anniversary-cover1.jpg",
-      "title": "To Kill a Mockingbird, by Harper Lee" ,
-      "author": "Harper Lee",
-        "price": 200
+      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/9780618640157_custom-s6-c30.jpg",
+      "title": "The Lord of the Rings" ,
+      "author": "J.R.R. Tolkien",
+        "price": 350
     }, {
       "id": 5,
-      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/50-anniversary-cover1.jpg",
-      "title": "To Kill a Mockingbird, by Harper Lee" ,
-      "author": "Harper Lee",
+      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/Penguin-2.jpg",
+      "title": "The Great Gatsby" ,
+      "author": "F. Scott Fitzgerald",
         "price": 200
     }, {
       "id": 6,
-      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/50-anniversary-cover1.jpg",
-      "title": "To Kill a Mockingbird, by Harper Lee" ,
-      "author": "Harper Lee",
-        "price": 200
+      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/pride_and_prejudice_book_cover_by_fourblackbirds-d533108.png",
+      "title": " Pride and Prejudice" ,
+      "author": "Jane Austen",
+        "price": 250
     }, {
       "id": 7,
-      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/50-anniversary-cover1.jpg",
-      "title": "To Kill a Mockingbird, by Harper Lee" ,
-      "author": "Harper Lee",
-        "price": 200
+      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/diary-of-anne-frank-postcard-front_0.jpg",
+      "title": "The Diary Of A Young Girl" ,
+      "author": "Anne Frank",
+        "price": 300
     }, {
       "id": 8,
-      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/50-anniversary-cover1.jpg",
-      "title": "To Kill a Mockingbird, by Harper Lee" ,
-      "author": "Harper Lee",
-        "price": 200
+      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/71h2sjik5al-_sl1380_-641x1024.jpg",
+      "title": "The Book Thief" ,
+      "author": "Markus Zusak",
+        "price": 345
     }, {
       "id": 9,
-      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/50-anniversary-cover1.jpg",
-      "title": "To Kill a Mockingbird, by Harper Lee" ,
-      "author": "Harper Lee",
-        "price": 200
+      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/Hobbit_book-673x1024.jpg",
+      "title": "The Hobbit" ,
+      "author": "J.R.R. Tolkien",
+        "price": 500
     }, {
       "id": 10,
-      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/50-anniversary-cover1.jpg",
-      "title": "To Kill a Mockingbird, by Harper Lee" ,
-      "author": "Harper Lee",
-        "price": 200
+      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/9780147514011-731x1024.jpg",
+      "title": "Little Women" ,
+      "author": "Louisa May Alcott",
+        "price": 260
     }, {
       "id": 11,
-      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/50-anniversary-cover1.jpg",
-      "title": "To Kill a Mockingbird, by Harper Lee" ,
-      "author": "Harper Lee",
-        "price": 200
+      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/tumblr_nd4wnpO3ZS1tv8vcro1_r1_1280-682x1024.jpg",
+      "title": "Fahrenheit 451" ,
+      "author": "Ray Bradbury",
+        "price": 370
     }, {
       "id": 12,
-      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/50-anniversary-cover1.jpg",
-      "title": "To Kill a Mockingbird, by Harper Lee" ,
-      "author": "Harper Lee",
-        "price": 200
-    }, {
-      "id": 13,
-      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/50-anniversary-cover1.jpg",
-      "title": "To Kill a Mockingbird, by Harper Lee" ,
-      "author": "Harper Lee",
-        "price": 200
-    }, {
-      "id": 14,
-      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/50-anniversary-cover1.jpg",
-      "title": "To Kill a Mockingbird, by Harper Lee" ,
-      "author": "Harper Lee",
-        "price": 200
-    }, {
-      "id": 15,
-      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/50-anniversary-cover1.jpg",
-      "title": "To Kill a Mockingbird, by Harper Lee" ,
-      "author": "Harper Lee",
-        "price": 200
+      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/cvr9781416500247_9781416500247_hr-633x1024.jpg",
+      "title": "Jane Eyre" ,
+      "author": "Charlotte Bronte",
+        "price": 280
     }
-
-
-
-
 
 ]
