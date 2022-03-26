@@ -23,9 +23,10 @@ const Shop = (props) => {
         const newBook =[...carts, book]
 
         if(carts.length>=4){
-            alert("You Have Selected more than can you Read ")
+            alert("You Have Selected More Than Can You Read !!!")
             return;
         }
+        
         setCarts(newBook);
         setRandom(empty)
         
@@ -33,6 +34,11 @@ const Shop = (props) => {
 
     const chooseOne = ()=>{
         const empty=[]
+        if(carts.length===0){
+            alert('Please Select Some Book First')
+            setRandom(empty)
+            return;
+        }
         
         let randBook = carts[Math.floor(Math.random() * carts.length)];
         // setRandom(alert(randBook.title));
