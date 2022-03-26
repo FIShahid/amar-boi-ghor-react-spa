@@ -50,17 +50,20 @@ const Shop = () => {
           </div>
 
           <div className="cart-container">
-          <h3>Selected Books</h3>
+          <h3>Selected Books:</h3>
               {
                   carts.map(cart=> <Cart cart={cart}
-          
+                    
                     key={cart.id}
                     ></Cart>)
-              }
-              <button onClick={chooseOne}><p>Choose One</p></button>
-              <button onClick={resetButton}><p>Reset</p></button>
+                }
+              <button className='choose-btn' onClick={chooseOne}><p>Choose One</p></button>
+                <h3 > Editor's Choice: {random.title}</h3>
+              <br/>
+              <br/>
 
-              <h1> Selected: {random.title}</h1>
+              <button className='reset-btn' onClick={resetButton}><p>Reset</p></button>
+
 
           
                 

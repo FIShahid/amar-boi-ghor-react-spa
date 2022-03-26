@@ -1,3 +1,5 @@
+import { faTrashCan } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import "./Cart.css"
 
@@ -9,8 +11,11 @@ const Cart = ({cart}) => {
 
        return (
         <div className='cart'>
-          
-             <p>Book Name: {cart.title}</p>
+            <div className='cart info'>
+            <img  src={cart.image} alt="" />
+             <p > {cart.title}</p>
+            <FontAwesomeIcon icon={faTrashCan}></FontAwesomeIcon>
+            </div>
              
 
         </div>

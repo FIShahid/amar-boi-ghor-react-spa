@@ -1,17 +1,37 @@
-/* .cart{
-    position: sticky;
-    top: 0;
-    padding: 30px 20px;
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
 }
+.cart img{
+
+    width: 50px;
+    height: 60px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+
+.cart p{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 20px;
+    margin-left: 10px;
+    width: 200px;
+       
+}
+
+
 
 @media only screen and (max-width: 600px) {
-.cart{
-    border: 1px solid gray;
-  
-    position: sticky;
-    padding: 50px;
-    
+.cart {
+    margin-top: 5px;
 }
-    
+.cart p{
+    margin: 0;
+}
+.cart img{
+    display: none;
+}
+}
 
-} */
