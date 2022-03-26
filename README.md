@@ -1,3 +1,3 @@
-# Project Name: Boi Ghor
+# Project Name: Amar Boi Ghor
 
-## Live site link: https://github.com/Programming-Hero-Web-Course4/lucky-one-FIShahid
+## Live site link:https://amar-boi-ghor.netlify.app/

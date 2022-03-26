@@ -3,7 +3,7 @@ import Books from '../Books/Books';
 import Cart from '../Cart/Cart';
 import "./Shop.css"
 
-const Shop = () => {
+const Shop = (props) => {
 
     const [books, setBooks] =useState([]);
     const [carts, setCarts] =useState([]);
@@ -18,6 +18,11 @@ const Shop = () => {
     const handleAddToCart =(book)=>{
         console.log(book);
         const newBook =[...carts, book]
+
+        if(carts.length>=4){
+            alert("You Have Selected more than can you Read ")
+            return;
+        }
         setCarts(newBook);
     }
 
@@ -54,14 +59,16 @@ const Shop = () => {
           </div>
 
           <div className="cart-container">
-          <h3>Selected Books:</h3>
+          <h3>Selected Books: </h3>
               {
                   carts.map(cart=> <Cart cart={cart}
                     
                     key={cart.id}
+
                     ></Cart>)
                 }
               <button className='choose-btn' onClick={chooseOne}><p>Choose One</p></button>
+              {/* <h4>Seceted: {random.title}</h4> */}
                
                
              

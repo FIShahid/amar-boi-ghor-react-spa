@@ -11,6 +11,7 @@ const Cart = ({cart}) => {
 
        return (
         <div className='cart'>
+                
             <div className='cart info'>
             <img  src={cart.image} alt="" />
              <p > {cart.title}</p>
