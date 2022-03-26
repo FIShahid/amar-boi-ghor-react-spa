@@ -6,7 +6,8 @@ import "./Shop.css"
 const Shop = () => {
 
     const [books, setBooks] =useState([]);
-    const [cart, setCart] =useState([]);
+    const [carts, setCarts] =useState([]);
+    const [random, setRandom] =useState([]);
 
     useEffect(()=>{
         fetch('data.json')
@@ -16,12 +17,27 @@ const Shop = () => {
 
     const handleAddToCart =(book)=>{
         console.log(book);
-        const newBook =[...cart, book]
-        setCart(newBook);
+        const newBook =[...carts, book]
+        setCarts(newBook);
     }
+
+    const chooseOne = ()=>{
+        
+        let randBook = carts[Math.floor(Math.random() * carts.length)];
+        setRandom(randBook);
+    }
+
+    const resetButton =()=>{
+       const  reset =[];
+       setCarts(reset);
+       setRandom(reset);
+    }
+    
+
     return (
         <div className='shop-container'>
           <div className="product-container">
+              
               {
                   books.map(book=><Books
                   key ={book.id}
@@ -30,10 +46,23 @@ const Shop = () => {
                   
                   ></Books>)
               } 
+              
           </div>
 
           <div className="cart-container">
-           <Cart cart={cart}></Cart>
+          <h3>Selected Books</h3>
+              {
+                  carts.map(cart=> <Cart cart={cart}
+          
+                    key={cart.id}
+                    ></Cart>)
+              }
+              <button onClick={chooseOne}><p>Choose One</p></button>
+              <button onClick={resetButton}><p>Reset</p></button>
+
+              <h1> Selected: {random.title}</h1>
+
+          
                 
 
           </div>

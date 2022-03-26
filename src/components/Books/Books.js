@@ -6,7 +6,8 @@ import "./Books.css"
 
 const Books = ({handleAddToCart, book}) => {
     
-   const {image, title, author ,price} =book;
+   const { image, title, author ,price} =book;
+//    console.log(book.id);
     return (
         <div className='books-container'>
             <img id='book-image' src={image} alt="" />
