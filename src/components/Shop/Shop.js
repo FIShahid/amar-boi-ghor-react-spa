@@ -22,9 +22,13 @@ const Shop = () => {
     }
 
     const chooseOne = ()=>{
+        const empty=[]
         
         let randBook = carts[Math.floor(Math.random() * carts.length)];
-        setRandom(randBook);
+        setRandom(alert(randBook.title));
+        setCarts(empty)
+        
+       
     }
 
     const resetButton =()=>{
@@ -58,8 +62,9 @@ const Shop = () => {
                     ></Cart>)
                 }
               <button className='choose-btn' onClick={chooseOne}><p>Choose One</p></button>
-                <h3 > Editor's Choice: {random.title}</h3>
-              <br/>
+               
+               
+             
               <br/>
 
               <button className='reset-btn' onClick={resetButton}><p>Reset</p></button>

@@ -7,7 +7,8 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 15px;
-    margin: 100px 50px;
+    margin: 0 50px;
+      
 }
 .cart-container{
     margin-top:0;
@@ -30,6 +31,16 @@
     text-decoration: underline;
    
 }
+.cart-container h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkgreen;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.cart-container span{
+    color: black;
+    
+}
 
 .choose-btn{
     border: 2px solid ;
@@ -38,8 +49,10 @@
     font-weight: bold;
     align-items: center;
     background-color: darkkhaki;
+    margin-bottom: 5px;
 
 }
+
 .choose-btn:hover{
     background-color: olive;
 }
