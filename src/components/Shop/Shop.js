@@ -16,7 +16,10 @@ const Shop = (props) => {
     },[]);
 
     const handleAddToCart =(book)=>{
+       
         console.log(book);
+        const empty =[]
+        
         const newBook =[...carts, book]
 
         if(carts.length>=4){
@@ -24,13 +27,17 @@ const Shop = (props) => {
             return;
         }
         setCarts(newBook);
+        setRandom(empty)
+        
     }
 
     const chooseOne = ()=>{
         const empty=[]
         
         let randBook = carts[Math.floor(Math.random() * carts.length)];
-        setRandom(alert(randBook.title));
+        // setRandom(alert(randBook.title));
+        // setRandom(randBook)
+        setRandom(randBook)
         setCarts(empty)
         
        
@@ -60,6 +67,10 @@ const Shop = (props) => {
 
           <div className="cart-container">
           <h3>Top Picks: </h3>
+          <div className='random'>
+             
+              <h4> {random.title} </h4>
+                        </div>
               {
                   carts.map(cart=> <Cart cart={cart}
                     

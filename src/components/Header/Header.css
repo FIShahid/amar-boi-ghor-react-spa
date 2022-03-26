@@ -1,11 +1,14 @@
+
 .header{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
+   
        height: 80px;
     background-color: burlywood;
     font-size: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
