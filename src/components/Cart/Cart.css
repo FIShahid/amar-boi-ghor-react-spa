@@ -11,6 +11,7 @@
     height: 60px;
     border-radius: 50px;
     margin-bottom: 15px;
+    box-shadow: 0px 0px 4px;
 }
 
 .cart p{
@@ -20,6 +21,8 @@
     width: 180px;
     margin-right: 8px;
     background-color: chocolate;
+    border-radius: 6px;
+    box-shadow: 0px 0px 4px;
        
 }
 
@@ -28,13 +31,14 @@
 @media only screen and (max-width: 600px) {
 .cart {
     margin-top: 5px;
+   
 }
 .cart p{
     margin-bottom: 15px;
 
 }
 .cart img{
-    display: none;
+    display: block;
 }
 }
 

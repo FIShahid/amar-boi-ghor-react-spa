@@ -59,7 +59,7 @@ const Shop = (props) => {
           </div>
 
           <div className="cart-container">
-          <h3>Selected Books: </h3>
+          <h3>Top Picks: </h3>
               {
                   carts.map(cart=> <Cart cart={cart}
                     
@@ -67,7 +67,7 @@ const Shop = (props) => {
 
                     ></Cart>)
                 }
-              <button className='choose-btn' onClick={chooseOne}><p>Choose One</p></button>
+              <button className='choose-btn' onClick={chooseOne}><p>Editor's Choice</p></button>
               {/* <h4>Seceted: {random.title}</h4> */}
                
                
